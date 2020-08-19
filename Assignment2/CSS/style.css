@@ -1,0 +1,175 @@
+/*Body font*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.25;
+  font-size: 16px;
+}
+
+/*Headings, primary navigation links and table headings*/
+h1, h2, h3, h4, h5, h6,
+header nav ul li, th {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Headings*/
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+/*Tables*/
+table {
+  border-collapse: collapse;
+  margin-bottom: 32px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 16px 8px;
+}
+
+/*All content*/
+html {
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+/*Header*/
+header {
+  color: white;
+  box-shadow: 1px 1px rgba(0,0,0,0.5);
+  margin-bottom: 32px;
+}
+
+header nav ul, #SocialLinks {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+header a {
+  color: white;
+  text-shadow: 1px 1px rgba(0,0,0,0.5);
+  text-decoration: none;
+}
+
+.backgroundColor {
+  border-style: dotted;
+  border-color: rgba(255,255,255,0.5);
+  background-color: #002f5e;
+}
+
+#about{
+  border-top: dotted;
+  padding: 8px;
+  border-color: rgba(255,255,255,0.5);
+}
+
+#programs{
+  border-top: dotted;
+  border-bottom: dotted;
+  padding: 8px;
+  border-color: rgba(255,255,255,0.5);
+}
+
+#Wordmark {
+  width: 200px;
+  padding-top: 8px;
+}
+
+#Logo {
+  display: none;
+}
+
+#PageTitle {
+  font-size: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/*Primary navigation links*/
+header nav a {
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 12px;
+  padding-right: 12px;
+  display: block;
+}
+
+/*Header social links*/
+#SocialLinks i{
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 24px;
+}
+
+/*Main content*/
+a {
+	color: Purple;
+}
+
+main {
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
+
+/*Block quotes*/
+blockquote {
+  background-color: #eee;
+  padding: 16px;
+  box-shadow: 1px 1px rgba(0,0,0,0.25);
+}
+
+/*Footer*/
+footer {
+  background-color: #a91639;
+  color: white;
+  padding-left: 32px;
+  padding-bottom: 64px;
+}
+
+footer a {
+  color: white;
+}
+
+footer ul{
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+#UnitSignature{
+  -webkit-filter: invert(100%);
+  width: 100%
+}
+
+#AddTelEmail{
+  margin-left: 10em;
+  padding-bottom: 8px;
+}
+
+#footer i {
+  font-size: 16px;
+}
+
+#icon-phone-square{
+  padding-bottom: 32px;
+}
